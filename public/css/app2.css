@@ -1,0 +1,20 @@
+.whitecolor{
+  color:white !important;
+}
+.greenbar{
+  background-color: #7DC623 !important;
+}
+
+.imageseccion1{
+  height: 10em;
+  width: 10em;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.demotitle{
+  color:#7DC623;
+}
