@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Smart Kitchen</title>
+    <title>TM6</title>
     <link rel="icon" href="{{asset('/img/logo.png')}}">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -19,13 +19,15 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app2.css') }}" rel="stylesheet">
+    <!-- SWAL -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-green shadow-sm greenbar">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm greenbar">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}" style="padding:0px !important;">
-                    <img src="{{asset('img/logo_blanco.png')}}" style="max-width:3.5em;" alt="">
+                    <img src="{{asset('img/logo_blanco.png')}}" style="max-width:2.5em;" alt="">
                 </a>
                 <button class="navbar-toggler whitecolor" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <i class="fas fa-bars whitecolor"></i>
@@ -40,13 +42,16 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#thermomix">{{ __('THERMOMIX') }}</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#demostracion">{{ __('DEMOSTRACIÓN') }}</a>
+                          <a class="nav-link whitecolor" href="#thermomix">{{ __('TM6') }}</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link whitecolor" href="#compra">{{ __('COMPRA') }}</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link whitecolor" href="#compra">{{ __('PROMOCIÓNES') }}</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link whitecolor" href="#demostracion">{{ __('DEMOSTRACIÓN') }}</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link whitecolor" href="#contactanos">{{ __('CONTÁCTANOS') }}</a>
