@@ -72,7 +72,7 @@
           <div class="col-8"></div>
             <div class="col-4">
               <div class="justify-content-center text-center" style="padding-top:45%;">
-                <h1 class="whitecolor font-weight-bold">¡AGENDA TU DEMO!</h1>
+                <h2 class="whitecolor font-weight-bold">¡AGENDA TU DEMO!</h2>
                 <h3 class="whitecolor font-weight-bold" style="font-size:1em;">Y VIVE UNA EXPERIENCIA CULINARIA ÚNICA</h3>
                 <a href="#demostracion" class="btn btn-light">AGENDAR DEMOSTRACIÓN!</a>
               </div>
