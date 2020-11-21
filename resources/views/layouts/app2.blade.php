@@ -12,8 +12,6 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="{{ asset('js/smooth.js') }}" defer></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -22,7 +20,6 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app2.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- SWAL -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Start of  Zendesk Widget script -->
@@ -31,16 +28,12 @@
 </head>
 <body>
   <style media="screen">
-    body {
-      font-family: 'Quicksand';
-      font-style: normal;
-      src: url('{{ asset('fonts/Quicksand_Light.otf') }}');src: url('{{ asset('fonts/Quicksand_Light.otf') }}');
-    }
+    body {font-family: 'Quicksand';}
   </style>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm greenbar" style="position:sticky;z-index:999;top:0px;" id="nav">
             <div class="container">
-                <a class="navbar-brand" href="#inicio" style="padding:0px !important;">
+                <a class="navbar-brand" href="{{ url('/') }}" style="padding:0px !important;">
                     <img src="{{asset('img/logo_blanco.png')}}" style="max-width:2.5em;" alt="">
                 </a>
                 <button class="navbar-toggler whitecolor" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -54,38 +47,9 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto" style="font-size:.8em!important;">
+                    <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#smartkitchen"><b>{{ __('SMART KITCHEN') }}</b></a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#thermomix">{{ __('TM6') }}</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#demostracion">{{ __('DEMOSTRACIÓN') }}</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#compra">{{ __('COMPRA') }}</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#promociones">{{ __('PROMOCIÓNES') }}</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#testimonios">{{ __('TESTIMONIOS') }}</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link whitecolor" href="#contactanos">{{ __('CONTÁCTANOS') }}</a>
-                        <!-- <a class="nav-link whitecolor" href="https://api.whatsapp.com/send?phone=525532801119&text=Quisiera más información sobre el TM6">{{ __('CONTÁCTANOS') }}</a> -->
-                      </li>
-                      <li></li>
-                      <li>
-                        <a class="nav-link whitecolor" href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square" style="font-size:1.5em;"></i></a>
-                      </li>
-                      <li>
-                        <a class="nav-link whitecolor" href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram" style="font-size:1.5em;"></i></a>
-                      </li>
-                      <li>
-                        <a class="nav-link whitecolor" href="https://api.whatsapp.com/send?phone=525532801119&text=Quisiera más información sobre el TM6" target="_blank"><i class="fab fa-whatsapp" style="font-size:1.5em;"></i></a>
+                          <a class="nav-link whitecolor" href="/">{{ __('INICIO') }}</a>
                       </li>
                         <!-- Authentication Links -->
                         <!-- @guest

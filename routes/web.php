@@ -21,3 +21,14 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/enviardemo',[App\Http\Controllers\EnviarDemoController::class, 'enviar']);
+Route::get('/newsletter',[App\Http\Controllers\EnviarDemoController::class, 'newsletter']);
+
+Route::get('/politicas', function () {
+    return view('politicas');
+});
+Route::get('/terminos', function () {
+    return view('terminos');
+});
+Route::get('/mapa', function () {
+    return view('mapa');
+});
