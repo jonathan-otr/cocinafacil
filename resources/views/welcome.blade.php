@@ -34,7 +34,7 @@
       <iframe width="100%" height="70%" src="https://www.youtube.com/embed/cRPROBaew70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-      <h3 style="padding-top:20%;">Conoce en la comodidad de tu hogar la cocina más pequeña e inteligente del mundo. Reserva tu experiencia culinaria.</h3>
+      <h3 style="padding-top:20%;" class="graycolor">Conoce en la comodidad de tu hogar la cocina más pequeña e inteligente del mundo. Reserva tu experiencia culinaria.</h3>
     </div>
   </div>
 
@@ -53,10 +53,10 @@
   <div class="row" id="promociones">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-top:10px;">
       <h1 class="greencolor">NUESTRAS PROMOCIONES</h1>
-      <h5>CONSULTA TODOS LOS MÉTODOS DE PAGO</h5>
+      <h5 class="graycolor">CONSULTA TODOS LOS MÉTODOS DE PAGO</h5>
     </div>
-    <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4 col-xl-4"></div>
-    <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4" style="height:400px;">
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-4 col-xl-4"></div>
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-4 col-xl-4" style="height:400px;">
       <div  id="promos" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#promos" data-slide-to="0" class="active"></li>
@@ -72,7 +72,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4 col-xl-4"></div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-4 col-xl-4"></div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
       <br>
       <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success" id="openmodal">AGENDA TU DEMOSTRACIÓN</button>
@@ -84,99 +84,110 @@
   <div href="#demostracion" class="row justify-content-center" onclick="openmodal();" id="testimonios" style="cursor:pointer;height:650px;background-image:URL('/img/banner6.png');background-size:contain;;background-position:right;background-repeat:no-repeat;">
   </div>
 
+  <div id="contactanos">
 
-  <div class="d-none d-lg-block d-xl-block">
-    <div class="row justify-content-center" id="contactanos" style="height:650px;background-image:URL('/img/banner8.png');background-size:contain;background-position:center;background-repeat:no-repeat;">
-      <div class="col-6">
-        <div class="col-12">
-          <h3>CONTÁCTANOS</h3>
-          <p><i class="fa fa-envelope greencolor"></i> demo@cocinainteligente.com.mx</p>
-          <p><i class="fa fa-phone greencolor"></i> Tel. 55 32 80 11 19</p>
-          <p>Suscríbete a nuestro Newsletter paraconocer nuestras próximas promociones.</p>
-          <input type="email" class="form-control" name="correo" id="correo-newsletter" value="" placeholder="Correo" required>
-          <br>
-          <center>
-            <button type="button" name="button" class="btn btn-success btn-block" onclick="newsletter();">SUSCRÍBETE</button>
-          </center>
-          <br>
-          <div class="d-none d-lg-block d-xl-block">
-            <a href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square greencolor" style="font-size:3em;padding:15px;"></i></a>
-            <a href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram greencolor" style="font-size:3em;padding:15px;"></i></a>
-          </div>
-          <div class="row">
-            <div class="col-6 d-none d-lg-block d-xl-block">
-              <p>ACERCA DE</p>
-              <ul style="list-style:none;">
-                <li>Smart Kitchen</li>
-                <li>TM6</li>
-                <li>Demostración</li>
-                <li>Compra</li>
-                <li>Promociones</li>
-                <li>Testimonios</li>
-                <li>Contáctanos</li>
-              </ul>
+    <div class="d-none d-lg-block d-xl-block">
+      <div class="row justify-content-center" style="height:650px;background-image:URL('/img/banner8.png');background-size:contain;background-position:center;background-repeat:no-repeat;">
+        <div class="col-6">
+          <div class="col-12">
+            <h3 class="graycolor"><b>CONTÁCTANOS</b></h3>
+            <p><i class="fa fa-envelope greencolor"></i> <span class="graycolor">demo@cocinainteligente.com.mx</span></p>
+            <p><i class="fa fa-phone greencolor"></i> <span class="graycolor">Tel. 55 32 80 11 19</span></p>
+            <p class="graycolor">Suscríbete a nuestro Newsletter para conocer nuestras próximas promociones.</p>
+            <input type="email" class="form-control" name="correo" id="correo-newsletter" value="" placeholder="Correo" required>
+            <br>
+            <center>
+              <button type="button" name="button" class="btn btn-success btn-block" onclick="newsletter();">SUSCRÍBETE</button>
+            </center>
+            <br>
+            <div class="d-none d-lg-block d-xl-block">
+              <a href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square greencolor" style="font-size:3em;padding:15px;"></i></a>
+              <a href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram greencolor" style="font-size:3em;padding:15px;"></i></a>
             </div>
-            <div class="col-6 d-none d-lg-block d-xl-block">
-              <p>POLÍTICAS</p>
-              <ul style="list-style:none;">
-                <li><a href="/politicas" style="color:#212529;">Políticas de Privacidad</a></li>
-                <li><a href="/terminos" style="color:#212529;">Términos y Condiciones</a></li>
-                <li><a href="/mapa" style="color:#212529;">Mapa de sitio</a></li>
-              </ul>
+            <div class="row">
+              <div class="col-6 d-none d-lg-block d-xl-block">
+                <p class="graycolor"><b>ACERCA DE</b></p>
+                <ul style="list-style:none;" class="graycolor">
+                  <li>Smart Kitchen</li>
+                  <li>TM6</li>
+                  <li>Demostración</li>
+                  <li>Compra</li>
+                  <li>Promociones</li>
+                  <li>Testimonios</li>
+                  <li>Contáctanos</li>
+                </ul>
+              </div>
+              <div class="col-6 d-none d-lg-block d-xl-block">
+                <p class="graycolor"><b>POLÍTICAS</b></p>
+                <ul style="list-style:none;">
+                  <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
+                  <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
+                  <li><a href="/mapa" class="graycolor">Mapa de sitio</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-6 text-center">
+        <div class="col-6 text-center">
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="d-none d-sm-block d-md-none">
-    <div class="row justify-content-center" style="height:650px;background-image:URL('/img/banner8.png');background-size:cover;background-position:center;background-repeat:no-repeat;">
-      <div class="col-6">
-        <div class="col-12">
-          <h3>CONTÁCTANOS</h3>
-          <p><i class="fa fa-envelope greencolor"></i> demo@cocinainteligente.com.mx</p>
-          <p><i class="fa fa-phone greencolor"></i> Tel. 55 32 80 11 19</p>
-          <p>Suscríbete a nuestro Newsletter paraconocer nuestras próximas promociones.</p>
-          <input type="email" class="form-control" name="correo" id="correo-newsletter" value="" placeholder="Correo" required>
-          <br>
-          <center>
-            <button type="button" name="button" class="btn btn-success btn-block" onclick="newsletter();">SUSCRÍBETE</button>
-          </center>
-          <br>
-          <div class="d-none">
-            <a href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square greencolor" style="font-size:3em;padding:15px;"></i></a>
-            <a href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram greencolor" style="font-size:3em;padding:15px;"></i></a>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <p>ACERCA DE</p>
-              <ul style="list-style:none;">
-                <li>Smart Kitchen</li>
-                <li>TM6</li>
-                <li>Demostración</li>
-                <li>Compra</li>
-                <li>Promociones</li>
-                <li>Testimonios</li>
-                <li>Contáctanos</li>
-              </ul>
+    <div class="d-sm-none d-sm-block d-md-block d-lg-none d-xl-none">
+      <div class="row justify-content-center" style="height:650px;background-image:URL('/img/banner8.png');background-size:cover;background-position:center;background-repeat:no-repeat;">
+        <div class="col-6">
+          <div class="col-12">
+            <h3 class="graycolor"><b>CONTÁCTANOS</b></h3>
+            <p><i class="fa fa-envelope greencolor"></i> <span class="graycolor">demo@cocinainteligente.com.mx</span></p>
+            <p><i class="fa fa-phone greencolor"></i> <span class="graycolor">Tel. 55 32 80 11 19</span></p>
+            <p class="graycolor">Suscríbete a nuestro Newsletter para conocer nuestras próximas promociones.</p>
+            <input type="email" class="form-control" name="correo" id="correo-newsletter" value="" placeholder="Correo" required>
+            <br>
+            <center>
+              <button type="button" name="button" class="btn btn-success btn-block" onclick="newsletter();">SUSCRÍBETE</button>
+            </center>
+            <br>
+            <div class="d-none">
+              <a href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square greencolor" style="font-size:3em;padding:15px;"></i></a>
+              <a href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram greencolor" style="font-size:3em;padding:15px;"></i></a>
             </div>
-            <div class="col-6">
-              <p>POLÍTICAS</p>
-              <ul style="list-style:none;">
-                <li><a href="/politicas" style="color:#212529;">Políticas de Privacidad</a></li>
-                <li><a href="/terminos" style="color:#212529;">Términos y Condiciones</a></li>
-                <li><a href="/mapa" style="color:#212529;">Mapa de sitio</a></li>
-              </ul>
+            <div class="row">
+              <div class="col-12 d-sm-none">
+                <p class="graycolor"><b>POLÍTICAS</b></p>
+                <ul style="list-style:none;">
+                  <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
+                  <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
+                  <li><a href="/mapa" class="graycolor">Mapa de sitio</a></li>
+                </ul>
+              </div>
+              <div class="col-6 d-none d-sm-block">
+                <p class="graycolor"><b>ACERCA DE</b></p>
+                <ul style="list-style:none;" class="graycolor">
+                  <li>Smart Kitchen</li>
+                  <li>TM6</li>
+                  <li>Demostración</li>
+                  <li>Compra</li>
+                  <li>Promociones</li>
+                  <li>Testimonios</li>
+                  <li>Contáctanos</li>
+                </ul>
+              </div>
+              <div class="col-6 d-none d-sm-block">
+                <p class="graycolor"><b>POLÍTICAS</b></p>
+                <ul style="list-style:none;">
+                  <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
+                  <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
+                  <li><a href="/mapa" class="graycolor">Mapa de sitio</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-6 text-center">
+        <div class="col-6 text-center">
+        </div>
       </div>
     </div>
+
   </div>
 
   <!-- Modal -->

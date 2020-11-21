@@ -27,9 +27,6 @@
     <!-- End of  Zendesk Widget script -->
 </head>
 <body>
-  <style media="screen">
-    body {font-family: 'Quicksand';}
-  </style>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm greenbar" style="position:sticky;z-index:999;top:0px;" id="nav">
             <div class="container">

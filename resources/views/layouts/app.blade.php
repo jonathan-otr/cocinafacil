@@ -30,13 +30,6 @@
     <!-- End of  Zendesk Widget script -->
 </head>
 <body>
-  <style media="screen">
-    body {
-      font-family: 'Quicksand';
-      font-style: normal;
-      src: url('{{ asset('fonts/Quicksand_Light.otf') }}');src: url('{{ asset('fonts/Quicksand_Light.otf') }}');
-    }
-  </style>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm greenbar" style="position:sticky;z-index:999;top:0px;" id="nav">
             <div class="container">

@@ -6,12 +6,15 @@
   color:#7DC623 !important;
 }
 
+.graycolor{
+  color:#6F7073 !important;
+}
+
 .btn-success{
   background-color: #7DC623 !important;
   border-color: #7DC623 !important;
   color:white;
 }
-
 
 .greenbar{
   background-color: #7DC623 !important;
@@ -76,4 +79,16 @@
 
 .my-float{
 	margin-top:16px;
+}
+
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/fonts/Quicksand_Light.otf');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    src: url('/fonts/Quicksand_Light.otf');
 }
