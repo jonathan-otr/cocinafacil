@@ -5,7 +5,7 @@
 
 
   <!-- INICIO -->
-  <div id="inicio" class="row" style="padding-bottom:130px;">
+  <div id="inicio" class="row" style="padding-bottom:50px;">
     <div  id="carrousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carrousel" data-slide-to="0" class="active"></li>
@@ -40,19 +40,42 @@
 
 
   <!-- thermomix -->
-  <div class="row justify-content-center" id="thermomix" style="height:650px;background-image:URL('/img/banner3.png');background-size:contain;background-position:center;background-repeat:no-repeat;">
-  </div>
+    <div id="thermomix" class="row">
+      <div  id="carrousel2">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="{{asset('img/banner3.png')}}" alt="First slide">
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- EXP -->
-  <div class="row justify-content-center" id="demostracion" onclick="openmodal();" style="cursor:pointer;height:650px;background-image:URL('/img/banner4.png');background-size:contain;background-position:center;background-repeat:no-repeat;">
+  <div id="demostracion" class="row">
+    <div  id="carrousel3">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/banner4.png')}}" alt="First slide">
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div href="#demostracion" class="row justify-content-center" id="compra" style="height:650px;background-image:URL('/img/banner5.png');background-size:contain;background-position:left;background-repeat:no-repeat;">
+
+  <div id="compra" class="row">
+    <div  id="carrousel4">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="{{asset('img/banner5.png')}}" alt="First slide">
+        </div>
+      </div>
+    </div>
   </div>
+
 
   <div class="row" id="promociones">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-top:10px;">
-      <h1 class="greencolor">NUESTRAS PROMOCIONES</h1>
+      <h1 class="greencolor"><b>NUESTRAS PROMOCIONES</b></h1>
       <h5 class="graycolor">CONSULTA TODOS LOS MÉTODOS DE PAGO</h5>
     </div>
     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-4 col-xl-4"></div>
@@ -74,14 +97,20 @@
     </div>
     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-4 col-xl-4"></div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-      <br>
-      <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success" id="openmodal">AGENDA TU DEMOSTRACIÓN</button>
+      <button hidden type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success" id="openmodal">AGENDA TU DEMOSTRACIÓN</button>
     </div>
   </div>
 
 
 
-  <div href="#demostracion" class="row justify-content-center" onclick="openmodal();" id="testimonios" style="cursor:pointer;height:650px;background-image:URL('/img/banner6.png');background-size:contain;;background-position:right;background-repeat:no-repeat;">
+  <div id="testimonios" class="row">
+    <div  id="carrousel5">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/banner6.png')}}" alt="First slide">
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="contactanos">
@@ -106,19 +135,19 @@
             </div>
             <div class="row">
               <div class="col-6 d-none d-lg-block d-xl-block">
-                <p class="graycolor"><b>ACERCA DE</b></p>
+                <h5 class="graycolor"><b>ACERCA DE</b></h5>
                 <ul style="list-style:none;" class="graycolor">
-                  <li>Smart Kitchen</li>
-                  <li>TM6</li>
-                  <li>Demostración</li>
-                  <li>Compra</li>
-                  <li>Promociones</li>
-                  <li>Testimonios</li>
-                  <li>Contáctanos</li>
+                  <li><a href="#smartkitchen" class="graycolor smooth">Smart Kitchen</a> </li>
+                  <li><a href="#thermomix" class="graycolor smooth">TM6</a> </li>
+                  <li><a href="#demostracion" class="graycolor smooth">Demostración</a> </li>
+                  <li><a href="#compra" class="graycolor smooth">Compra</a> </li>
+                  <li><a href="#promociones" class="graycolor smooth">Promociones</a> </li>
+                  <li><a href="#testimonios" class="graycolor smooth">Testimonios</a> </li>
+                  <li><a href="#contactanos" class="graycolor smooth">Contáctanos</a> </li>
                 </ul>
               </div>
               <div class="col-6 d-none d-lg-block d-xl-block">
-                <p class="graycolor"><b>POLÍTICAS</b></p>
+                <h5 class="graycolor"><b>POLÍTICAS</b></h5>
                 <ul style="list-style:none;">
                   <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
                   <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
@@ -153,7 +182,7 @@
             </div>
             <div class="row">
               <div class="col-12 d-sm-none">
-                <p class="graycolor"><b>POLÍTICAS</b></p>
+                <h5 class="graycolor"><b>POLÍTICAS</b></h5>
                 <ul style="list-style:none;">
                   <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
                   <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
@@ -161,19 +190,19 @@
                 </ul>
               </div>
               <div class="col-6 d-none d-sm-block">
-                <p class="graycolor"><b>ACERCA DE</b></p>
+                <h5 class="graycolor"><b>ACERCA DE</b></h5>
                 <ul style="list-style:none;" class="graycolor">
-                  <li>Smart Kitchen</li>
-                  <li>TM6</li>
-                  <li>Demostración</li>
-                  <li>Compra</li>
-                  <li>Promociones</li>
-                  <li>Testimonios</li>
-                  <li>Contáctanos</li>
+                  <li><a href="#smartkitchen" class="graycolor smooth">Smart Kitchen</a> </li>
+                  <li><a href="#thermomix" class="graycolor smooth">TM6</a> </li>
+                  <li><a href="#demostracion" class="graycolor smooth">Demostración</a> </li>
+                  <li><a href="#compra" class="graycolor smooth">Compra</a> </li>
+                  <li><a href="#promociones" class="graycolor smooth">Promociones</a> </li>
+                  <li><a href="#testimonios" class="graycolor smooth">Testimonios</a> </li>
+                  <li><a href="#contactanos" class="graycolor smooth">Contáctanos</a> </li>
                 </ul>
               </div>
               <div class="col-6 d-none d-sm-block">
-                <p class="graycolor"><b>POLÍTICAS</b></p>
+                <h5 class="graycolor"><b>POLÍTICAS</b></h5>
                 <ul style="list-style:none;">
                   <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
                   <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
@@ -222,7 +251,7 @@
   <!-- foter -->
   <div class="row justify-content-center greenbar">
     <div class="col-12 text-center">
-      <h4 class="whitecolor">Copyright © 2020 Todos los derechos reservados por Orbital Digital</h4>
+      <p class="whitecolor">Copyright © 2020 Todos los derechos reservados por Orbital Digital</p>
     </div>
   </div>
   <a href="https://api.whatsapp.com/send?phone=525532801119&text=Quisiera más información sobre el TM6" class="float" target="_blank">

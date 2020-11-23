@@ -33,7 +33,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm greenbar" style="position:sticky;z-index:999;top:0px;" id="nav">
             <div class="container">
-                <a class="navbar-brand" href="#inicio" style="padding:0px !important;">
+                <a class="navbar-brand smooth" href="#inicio" style="padding:0px !important;">
                     <img src="{{asset('img/logo_blanco.png')}}" style="max-width:2.5em;" alt="">
                 </a>
                 <button class="navbar-toggler whitecolor" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -49,25 +49,25 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto" style="font-size:.8em!important;">
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#smartkitchen"><b>{{ __('SMART KITCHEN') }}</b></a>
+                          <a class="nav-link whitecolor smooth" href="#smartkitchen"><b>{{ __('SMART KITCHEN') }}</b></a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#thermomix">{{ __('TM6') }}</a>
+                          <a class="nav-link whitecolor smooth" href="#thermomix"><b>{{ __('TM6') }}</b></a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#demostracion">{{ __('DEMOSTRACIÓN') }}</a>
+                          <a class="nav-link whitecolor smooth" href="#demostracion"><b>{{ __('DEMOSTRACIÓN') }}</b></a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#compra">{{ __('COMPRA') }}</a>
+                          <a class="nav-link whitecolor smooth" href="#compra"><b>{{ __('COMPRA') }}</b></a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#promociones">{{ __('PROMOCIÓNES') }}</a>
+                          <a class="nav-link whitecolor smooth" href="#promociones"><b>{{ __('PROMOCIONES') }}</b></a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link whitecolor" href="#testimonios">{{ __('TESTIMONIOS') }}</a>
+                          <a class="nav-link whitecolor smooth" href="#testimonios"><b>{{ __('TESTIMONIOS') }}</b></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link whitecolor" href="#contactanos">{{ __('CONTÁCTANOS') }}</a>
+                        <a class="nav-link whitecolor smooth" href="#contactanos"><b>{{ __('CONTÁCTANOS') }}</b></a>
                         <!-- <a class="nav-link whitecolor" href="https://api.whatsapp.com/send?phone=525532801119&text=Quisiera más información sobre el TM6">{{ __('CONTÁCTANOS') }}</a> -->
                       </li>
                       <li></li>

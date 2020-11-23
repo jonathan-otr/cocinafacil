@@ -81,14 +81,26 @@
 	margin-top:16px;
 }
 
+body{
+  font-family: Quicksand!important;
+}
+
 
 @font-face {
-    font-family: 'Quicksand';
+    font-family: Quicksand;
     src: url('/fonts/Quicksand_Light.otf');
 }
 
 @font-face {
-    font-family: 'Quicksand';
+    font-family: Quicksand;
     font-weight: bold;
-    src: url('/fonts/Quicksand_Light.otf');
+    src: url('/fonts/Quicksand_Bold.otf');
+}
+
+li>a{
+  font-size: .8em;
+}
+
+p{
+  font-size: .8em;
 }
