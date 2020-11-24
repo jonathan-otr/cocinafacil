@@ -6,21 +6,43 @@
 
   <!-- INICIO -->
   <div id="inicio" class="row" style="padding-bottom:50px;">
-    <div  id="carrousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carrousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carrousel" data-slide-to="1"></li>
-        <li data-target="#carrousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="{{asset('img/carousel1.png')}}" alt="First slide">
+    <div class="d-none d-lg-block d-xl-block">
+      <div  id="carrousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carrousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carrousel" data-slide-to="1"></li>
+          <li data-target="#carrousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="{{asset('img/carousel1.png')}}" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{{asset('img/carousel2.png')}}" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{{asset('img/carousel3.png')}}" alt="Third slide">
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="{{asset('img/carousel2.png')}}" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="{{asset('img/carousel3.png')}}" alt="Third slide">
+      </div>
+    </div>
+    <div class="d-sm-none d-sm-block d-md-block d-lg-none d-xl-none">
+      <div  id="carrouselmovil" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carrouselmovil" data-slide-to="0" class="active"></li>
+          <li data-target="#carrouselmovil" data-slide-to="1"></li>
+          <li data-target="#carrouselmovil" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="{{asset('img/carouselmovil1.png')}}" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{{asset('img/carouselmovil2.png')}}" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{{asset('img/carouselmovil3.png')}}" alt="Third slide">
+          </div>
         </div>
       </div>
     </div>
@@ -40,36 +62,37 @@
 
 
   <!-- thermomix -->
-    <div id="thermomix" class="row">
-      <div  id="carrousel2">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="{{asset('img/banner3.png')}}" alt="First slide">
-          </div>
-        </div>
-      </div>
+  <div id="thermomix">
+    <div class="d-none d-lg-block d-xl-block">
+      <img class="d-block w-100" src="{{asset('img/banner3.png')}}">
     </div>
+    <div class="d-sm-none d-sm-block d-md-block d-lg-none d-xl-none">
+      <img class="d-block w-100" src="{{asset('img/movil3.png')}}">
+      <img class="d-block w-100" src="{{asset('img/movil33.png')}}">
+      <img class="d-block w-100" src="{{asset('img/movil32.png')}}">
+      <img class="d-block w-100" src="{{asset('img/movil31.png')}}">
+    </div>
+  </div>
 
   <!-- EXP -->
-  <div id="demostracion" class="row">
-    <div  id="carrousel3">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/banner4.png')}}" alt="First slide">
-        </div>
-      </div>
+  <div id="demostracion">
+    <div class="d-none d-lg-block d-xl-block">
+      <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/banner4.png')}}">
+    </div>
+    <div class="d-sm-none d-sm-block d-md-block d-lg-none d-xl-none">
+      <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/movil4.png')}}">
     </div>
   </div>
 
 
-  <div id="compra" class="row">
-    <div  id="carrousel4">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="{{asset('img/banner5.png')}}" alt="First slide">
-        </div>
-      </div>
+  <div id="compra">
+    <div class="d-none d-lg-block d-xl-block">
+      <img class="d-block w-100" src="{{asset('img/banner5.png')}}" >
     </div>
+    <div class="d-sm-none d-sm-block d-md-block d-lg-none d-xl-none">
+      <img class="d-block w-100" src="{{asset('img/movil5.png')}}" >
+    </div>
+
   </div>
 
 
@@ -103,20 +126,18 @@
 
 
 
-  <div id="testimonios" class="row">
-    <div  id="carrousel5">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/banner6.png')}}" alt="First slide">
-        </div>
-      </div>
+  <div id="testimonios">
+    <div class="d-none d-lg-block d-xl-block">
+      <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/banner6.png')}}" alt="First slide">
+    </div>
+    <div class="d-sm-none d-sm-block d-md-block d-lg-none d-xl-none">
+      <img class="d-block w-100" onclick="openmodal();" style="cursor:pointer;" src="{{asset('img/movil7.png')}}" alt="First slide">
     </div>
   </div>
 
   <div id="contactanos">
-
     <div class="d-none d-lg-block d-xl-block">
-      <div class="row justify-content-center" style="height:650px;background-image:URL('/img/banner8.png');background-size:contain;background-position:center;background-repeat:no-repeat;">
+      <div class="row justify-content-center" style="height:650px;background-image:URL('/img/banner8.png');background-size:cover;background-position:center;background-repeat:no-repeat;">
         <div class="col-6">
           <div class="col-12">
             <h3 class="graycolor"><b>CONTÁCTANOS</b></h3>
@@ -163,60 +184,64 @@
     </div>
 
     <div class="d-sm-none d-sm-block d-md-block d-lg-none d-xl-none">
-      <div class="row justify-content-center" style="height:650px;background-image:URL('/img/banner8.png');background-size:cover;background-position:center;background-repeat:no-repeat;">
-        <div class="col-6">
-          <div class="col-12">
-            <h3 class="graycolor"><b>CONTÁCTANOS</b></h3>
-            <p><i class="fa fa-envelope greencolor"></i> <span class="graycolor">demo@cocinainteligente.com.mx</span></p>
-            <p><i class="fa fa-phone greencolor"></i> <span class="graycolor">Tel. 55 32 80 11 19</span></p>
-            <p class="graycolor">Suscríbete a nuestro Newsletter para conocer nuestras próximas promociones.</p>
-            <input type="email" class="form-control" name="correo" id="correo-newsletter" value="" placeholder="Correo" required>
-            <br>
-            <center>
-              <button type="button" name="button" class="btn btn-success btn-block" onclick="newsletter();">SUSCRÍBETE</button>
-            </center>
-            <br>
-            <div class="d-none">
-              <a href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square greencolor" style="font-size:3em;padding:15px;"></i></a>
-              <a href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram greencolor" style="font-size:3em;padding:15px;"></i></a>
+      <div class="row justify-content-center">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8">
+          <h1 class="graycolor"><b>CONTÁCTANOS</b></h1>
+          <p><i class="fa fa-envelope greencolor"></i> <span class="graycolor">demo@cocinainteligente.com.mx</span></p>
+          <p><i class="fa fa-phone greencolor"></i> <span class="graycolor">Tel. 55 32 80 11 19</span></p>
+          <p class="graycolor">Suscríbete a nuestro Newsletter para conocer nuestras próximas promociones.</p>
+          <input type="email" class="form-control" name="correo" id="correo-newsletter" value="" placeholder="Correo" required>
+          <br>
+          <center>
+            <button type="button" name="button" class="btn btn-success btn-block" onclick="newsletter();">SUSCRÍBETE</button>
+          </center>
+          <br>
+          <a href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square greencolor" style="font-size:3em;padding:15px;"></i></a>
+          <a href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram greencolor" style="font-size:3em;padding:15px;"></i></a>
+          <br>
+          <div class="d-none">
+            <a href="https://www.facebook.com/cucharadasdesabor/" target="_blank"><i class="fab fa-facebook-square greencolor" style="font-size:3em;padding:15px;"></i></a>
+            <a href="https://www.instagram.com/cucharadas_de_sabor/?hl=es-la" target="_blank"><i class="fab fa-instagram greencolor" style="font-size:3em;padding:15px;"></i></a>
+          </div>
+          <div class="row">
+            <div class="col-12 d-sm-none">
+              <h5 class="graycolor"><b>POLÍTICAS</b></h5>
+              <ul style="list-style:none;">
+                <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
+                <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
+                <li><a href="/mapa" class="graycolor">Mapa de sitio</a></li>
+              </ul>
             </div>
-            <div class="row">
-              <div class="col-12 d-sm-none">
-                <h5 class="graycolor"><b>POLÍTICAS</b></h5>
-                <ul style="list-style:none;">
-                  <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
-                  <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
-                  <li><a href="/mapa" class="graycolor">Mapa de sitio</a></li>
-                </ul>
-              </div>
-              <div class="col-6 d-none d-sm-block">
-                <h5 class="graycolor"><b>ACERCA DE</b></h5>
-                <ul style="list-style:none;" class="graycolor">
-                  <li><a href="#smartkitchen" class="graycolor smooth">Smart Kitchen</a> </li>
-                  <li><a href="#thermomix" class="graycolor smooth">TM6</a> </li>
-                  <li><a href="#demostracion" class="graycolor smooth">Demostración</a> </li>
-                  <li><a href="#compra" class="graycolor smooth">Compra</a> </li>
-                  <li><a href="#promociones" class="graycolor smooth">Promociones</a> </li>
-                  <li><a href="#testimonios" class="graycolor smooth">Testimonios</a> </li>
-                  <li><a href="#contactanos" class="graycolor smooth">Contáctanos</a> </li>
-                </ul>
-              </div>
-              <div class="col-6 d-none d-sm-block">
-                <h5 class="graycolor"><b>POLÍTICAS</b></h5>
-                <ul style="list-style:none;">
-                  <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
-                  <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
-                  <li><a href="/mapa" class="graycolor">Mapa de sitio</a></li>
-                </ul>
-              </div>
+            <div class="col-6 d-none d-sm-block">
+              <h5 class="graycolor"><b>ACERCA DE</b></h5>
+              <ul style="list-style:none;" class="graycolor">
+                <li><a href="#smartkitchen" class="graycolor smooth">Smart Kitchen</a> </li>
+                <li><a href="#thermomix" class="graycolor smooth">TM6</a> </li>
+                <li><a href="#demostracion" class="graycolor smooth">Demostración</a> </li>
+                <li><a href="#compra" class="graycolor smooth">Compra</a> </li>
+                <li><a href="#promociones" class="graycolor smooth">Promociones</a> </li>
+                <li><a href="#testimonios" class="graycolor smooth">Testimonios</a> </li>
+                <li><a href="#contactanos" class="graycolor smooth">Contáctanos</a> </li>
+              </ul>
+            </div>
+            <div class="col-6 d-none d-sm-block">
+              <h5 class="graycolor"><b>POLÍTICAS</b></h5>
+              <ul style="list-style:none;">
+                <li><a href="/politicas" class="graycolor">Políticas de Privacidad</a></li>
+                <li><a href="/terminos" class="graycolor">Términos y Condiciones</a></li>
+                <li><a href="/mapa" class="graycolor">Mapa de sitio</a></li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="col-6 text-center">
+        <div class="col-2">
         </div>
       </div>
+      <img class="d-block w-100" src="{{asset('img/movil8.png')}}" >
     </div>
-
   </div>
 
   <!-- Modal -->
