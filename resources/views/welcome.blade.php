@@ -53,7 +53,7 @@
   <h1 id="smartkitchen" class="greencolor text-center" style="padding-bottom:20px;padding-top:15px;"><b>SMART KITCHEN</b></h1>
   <div class="row"  style="min-height:600px;">
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <iframe width="100%" height="70%" src="https://www.youtube.com/embed/cRPROBaew70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="70%" src="https://www.youtube.com/embed/Q9ZRTnBxz7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
       <h3 style="padding-top:20%;" class="graycolor">Conoce en la comodidad de tu hogar la cocina más pequeña e inteligente del mundo. Reserva tu experiencia culinaria.</h3>

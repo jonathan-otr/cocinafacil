@@ -22,3 +22,15 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+var x = 0;
+$(window).scroll(function() {
+  x+=1;
+  if (x>=15) {
+    console.log('hola');
+    if ($('#navbarSupportedContent').hasClass("show")) {
+      $('#navbarSupportedContent').removeClass("show");
+    }
+    x=0;
+  }
+});
